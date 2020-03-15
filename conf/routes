@@ -1,0 +1,7 @@
+
+GET /    com.murali.controllers.HomeController.home
+GET /login    com.murali.controllers.HomeController.login
+GET /register    com.murali.controllers.HomeController.register
+GET /checkout    com.murali.controllers.HomeController.secure
+
+GET     /assets/*file               controllers.Assets.versioned(file)
